@@ -34,22 +34,22 @@
   transition: 0.3s linear;
 }
 
-.like-icon:hover .core{
+.like-icon:hover .core {
   fill: var(--color-black);
   transition-delay: 0s;
 }
 
-.like-icon:hover .main-body{
+.like-icon:hover .main-body {
   fill: var(--color-black);
   transition-delay: 0.05s;
 }
 
-.like-icon:active .core{
+.like-icon:active .core {
   fill: var(--color-sparks);
   transition-delay: 0s;
 }
 
-.like-icon:active .main-body{
+.like-icon:active .main-body {
   fill: var(--color-sparks);
   transition-delay: 0.05s;
 }
