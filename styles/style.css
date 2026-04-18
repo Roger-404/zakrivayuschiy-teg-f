@@ -24,7 +24,7 @@
   border: var(--border);
   padding-inline: clamp(1rem, -1.3327rem + 9.9531vw, 7.625rem);
   padding-block: clamp(7.625rem, 7.4489rem + 0.7512vw, 8.125rem);
-  font-family: var(--second-font);
+  font-family: var(--accent-font, fantasy);
   line-height: 1;
   text-align: center;
   text-transform: uppercase;
@@ -67,7 +67,7 @@
   top: 25px;
   right: 25px;
   opacity: 0.5;
-  font-family: var(--second-font, sans-serif);
+  font-family: var(--accent-font, fantasy);
   font-weight: 400;
   font-size: 14px;
   text-transform: uppercase;
@@ -104,7 +104,7 @@
   align-items: center;
   gap: 8px;
   border: var(--border);
-  font-family: var(--second-font, sans-serif);
+  font-family: var(--accent-font, fantasy);
   font-size: 14px;
   line-height: 90%;
   background-color: var(--color-white);
@@ -168,31 +168,31 @@
   mix-blend-mode: difference;
 }
 
-.card__image--filter-1 {
+.card__image--contrast {
   filter: contrast(50%);
 }
 
-.card__image--filter-2 {
+.card__image--brightness {
   filter: brightness(150%);
 }
 
-.card__image--filter-3 {
+.card__image--saturate {
   filter: saturate(130%);
 }
 
-.card__image--filter-4 {
+.card__image--hue-rotate {
   filter: hue-rotate(230deg);
 }
 
-.card__image--filter-5 {
+.card__image--sepia {
   filter: sepia(70%);
 }
 
-.card__image--filter-6 {
+.card__image--opacity {
   filter: opacity(55%);
 }
 
-.card__image--filters {
+.card__image--rayscale--invert {
   filter: grayscale(100%) invert(100%);
 }
 
@@ -228,7 +228,7 @@ dialog::backdrop {
 }
 
 .dialog__text {
-  font-family: var(--second-font, sans-serif);
+  font-family: var(--accent-font, fantasy);
   font-size: 14px;
   line-height: 150%;
   text-transform: uppercase;

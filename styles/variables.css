@@ -1,6 +1,6 @@
 :root {
   --main-font: 'Inter';
-  --second-font: 'PressStart2P';
+  --accent-font: 'PressStart2P';
 
   --gradient-1: repeating-linear-gradient(to right, #d3d3d3 0px 2px, transparent 2px 4px);
   --gradient-2: repeating-linear-gradient(to bottom, #d3d3d3 0px 2px, transparent 2px 4px );
@@ -11,5 +11,5 @@
   --color-black: #000;
   --color-white: #fff;
 
-  --border: 2px solid #000; 
+  --border: 2px solid #000;
 }
